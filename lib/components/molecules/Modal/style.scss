@@ -1,0 +1,13 @@
+#root-modal {
+  .modal-open {
+    .modal {
+      display: block;
+      .modal-header {
+        .icon-feather-x {
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

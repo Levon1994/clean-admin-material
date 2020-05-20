@@ -1,0 +1,47 @@
+.TablePaper {
+  .serch-line {
+    margin-bottom: 10px;
+    .Button {
+      .Icon {
+        font-size: 16px;
+        margin-right: 10px;
+        color: #fff;
+        vertical-align: sub;
+      }
+    }
+  }
+  .CardListComponent {
+    padding-top: 20px;
+  }
+  .table-url-type-value {
+    &:hover {
+      color: #047bf8;
+      .Icon {
+        color: #047bf8;
+      }
+    }
+  }
+  .table-multiple-text-value {
+    overflow-x: auto;
+    .multiple-text-item {
+      margin: 0 5px;
+      border-radius: 4px;
+    }
+  }
+}
+
+@keyframes rotate{
+  from { transform: rotate(0)}
+  to { transform: rotate(180deg)}
+}
+
+@media screen and (max-width: 430px) {
+  .TablePaper  {
+    .serch-line {
+      flex-direction: column;
+      .formGroup {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
